@@ -12,14 +12,8 @@
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/delivery-app.git
+    git clone https://github.com/YuriyDyachuk/lucky-game-app#
     cd lucky-game-app
-    ```
-   
-2. **Create a `.env` file in the root directory of the project and add the variables**:
-    
-    ```bash
-    cp .env.example .env
     ```
 
 ## ⌨️ Commands <a name="commands"></a>
@@ -27,19 +21,15 @@
 - **Started the project in daemon**:
 
     ```bash
-    docker-compose up -d --build
+    docker-compose up --build
+    ```
+
+- **Open the web interface**:
+    ```
+    http://localhost:8080
     ```
 
 - **Sign In to the container**:
     ```
     docker exec -it laravel-app bash
-    ```
-
-- **Run migration**:
-    ```
-    php artisan migrate
-
-- **Started queue worker**:
-    ```
-    php artisan queue:work
     ```

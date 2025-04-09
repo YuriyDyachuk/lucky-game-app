@@ -28,7 +28,7 @@
 </head>
 <body>
 <h2>Ваша уникальная ссылка:</h2>
-<p><strong>{{ $token }}</strong></p>
+<p><strong>{{ config('app.url_link') . $token }}</strong></p>
 
 <form method="POST" action="{{ route('link.generateNew', ['token' => basename($token)]) }}">
     @csrf
