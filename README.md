@@ -22,33 +22,6 @@
     cp .env.example .env
     ```
 
-    ```bash
-    DB_CONNECTION=mysql
-    DB_HOST=mysql
-    DB_PORT=3306
-    DB_DATABASE=laravel
-    DB_USERNAME=laravel
-    DB_PASSWORD=laravel
-        
-    SESSION_DRIVER=file
-    SESSION_LIFETIME=120
-    SESSION_ENCRYPT=false
-    SESSION_PATH=/
-    SESSION_DOMAIN=null
-        
-    BROADCAST_CONNECTION=log
-    FILESYSTEM_DISK=local
-    QUEUE_CONNECTION=redis
-    QUEUE_RETRY_AFTER=60
-        
-    CACHE_STORE=database
-       
-    REDIS_CLIENT=predis
-    REDIS_HOST=redis
-    REDIS_PASSWORD=null
-    REDIS_PORT=6379
-    ```
-
 ## ⌨️ Commands <a name="commands"></a>
 
 - **Started the project in daemon**:
